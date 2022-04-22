@@ -1,0 +1,24 @@
+POST http://localhost:3001/api/user/signup
+Content-Type: application/json
+
+{
+"firstname": "ale",
+ "lastname": "temesgen",
+ "email": "a@gmail.com",
+"password": "alem",
+"gender": "female",
+"birthdate": "13/04/2000"
+}
+###
+POST http://localhost:3001/api/user/login
+Content-Type: application/json
+
+{
+
+ "email": "dkikj@",
+ "password": "sarjjontam"
+
+}
+###
+GET http://localhost:3001/
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDg3NDc3NjB9.NKaMLcp7W_m8AfkIpgsqHOnddt7laOyTzX-yDfhFrkE"
